@@ -1,5 +1,5 @@
 ---
-title: 'BioHackrXiv template this is an example of a (too) long title mpla mpla mpla mpla mpla mpla mpla mpla mpla mpla mpla c wjfc wjknwjek nwjkwen jk'
+title: 'Test'
 title_short: 'Logic Programming for the Biomedical Sciences'
 tags:
   - logic programming
