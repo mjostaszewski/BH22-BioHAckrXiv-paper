@@ -1,6 +1,6 @@
 ---
 title: 'Test'
-title_short: 'Logic Programming for the Biomedical Sciences'
+title_short: 'Learning Paths for biocurators in Systems Biology'
 tags:
   - logic programming
 authors:
