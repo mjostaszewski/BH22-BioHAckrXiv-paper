@@ -1,107 +1,83 @@
 ---
-title: 'Test'
-title_short: 'Learning Paths for biocurators in Systems Biology'
+title: 'Training systems biology curators in building interoperable and reusable models following a learning path approach'
+title_short: 'Learning Paths for biocurators in systems biology'
 tags:
-  - logic programming
+  - systems biology
+  - biocuration
+  - modelling
+  - learning path
+  - training
 authors:
-  - name: Chris Mungall
-    orcid: 0000-0002-8021-9162
+  - name: Livia Perfetto
+    orcid: 0000-0003-4392-8725
     affiliation: 1
-  - name: Hirokazu Chiba
+  - name: Sandra Orchard
+    orcid: 0000-0002-8878-3972
     affiliation: 2
-  - name: Shuichi Kawashima
-    affiliation: 2
-  - name: Yasunori Yamamoto
-    affiliation: 2
-  - name: Pjotr Prins
-    orcid: 0000-0002-8021-9162
+  - name: Alexander Mazein
+    orcid: 0000-0001-7137-4171
     affiliation: 3
-  - name: Nada Amin
+  - name: Ulrike Wittig
+    orcid: 0000-0002-9077-5664
     affiliation: 4
-  - name: Deepak Unni
+  - name: Martina Summer-Kutmon
+    orcid: 0000-0002-7699-8191
     affiliation: 5
-    orcid: 0000-0002-3583-7340
-  - name: <nobr>William&nbsp;E.&nbsp;Byrd</nobr>
+  - name: Rahuman Sheriff
+    orcid: 0000-0003-0705-9809
+    affiliation: 2
+  - name: Chris Evelo
+    orcid: 0000-0002-5301-3142
+    affiliation: 5
+  - name: Mihail Anton
+    orcid: 0000-0002-7753-9042
     affiliation: 6
+  - name: Luana Licata
+    orcid: 0000-0001-5084-9000
+    affiliation: 7
+  - name: Marek Ostaszewski
+    orcid: 0000-0003-1473-370X
+    affiliation: 3
 affiliations:
-  - name: Environmental Genomics and Systems Biology, Lawrence Berkeley National Laboratory, Berkeley, CA, USA
+  - name: Universita degli Studi di Roma La Sapienza Dipartimento di Biologia e Biotecnologie Charles Darwin, Roma, Lazio, IT
     index: 1
-  - name: Database Center for Life Science, Research Organization of Information and Systems, Japan
+  - name: European Bioinformatics Institute, Hinxton, UK
     index: 2
-  - name: Department of Genetics, Genomics and Informatics, The University of Tennessee Health Science Center, Memphis, TN, USA.
+  - name: University of Luxembourg, Luxembourg, LU
     index: 3
-  - name: Harvard University, USA
+  - name: Heidelberger Institut f&uuml;r Theoretische Studien, Heidelberg, Baden-W&uuml;rttemberg, DE
     index: 4
-  - name: Berkeley Lab, USA
+  - name: Maastricht University, Maastricht, Limburg, NL
     index: 5
-  - name: University of Alabama at Birmingham, USA
+  - name: Chalmers University of Technology, Gothenburg, SE
     index: 6
-date: 3 March 2020
+  - name: University of Rome Tor Vergata, Rome, Lazio, IT
+    index: 7
+date: 7 November 2022
 cito-bibliography: paper.bib
-event: Fukuoka2019
-biohackathon_name: "BioHakaton2022"
+event: Paris22
+biohackathon_name: "BioHackaton2022"
 biohackathon_url:   "http://biohackathon-europe.org"
 biohackathon_location: "Paris, France, 2022"
-group: Logic programming group
+group: ELIXIR Systems Biology Community, ELIXIR Biocuration Focus Group
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackrxiv/bhxiv-gen-pdf
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: Chris Mungall & Hirokazu Chiba \emph{et al.}
+authors_short: Livia Perfetto \emph{et al.}
 ---
-
-
-<!--
-
-The paper.md, bibtex and figure file can be found in this repo:
-
-  https://github.com/journal-of-research-objects/Example-BioHackrXiv-Paper
-
-To modify, please clone the repo. You can generate PDF of the paper by
-pasting above link (or yours) in
-
-  http://biohackrxiv.genenetwork.org/
-
--->
 
 # Introduction
 
 As part of the one week Biohackathon 2022 in Paris, France, we formed
-a working group on logic programming for the biomedical sciences.
-Logic programming is understood by many bioinformaticians when it is
-presented in the form of relational SQL queries or SPARQL
-queries. More advanced logic programming, however, is underutilized in
-bioinformatics.  Prolog, for example, is a high-level programming
-language that has its roots in first-order logic or first-order
-predicate calculus.  Another example, miniKanren, is an embedded
-Domain Specific Language for logic programming. Core miniKanren is
-exceptionally simple, with only three logical operators and one
-interface operator [@uses_method_in:reasoned2nd].
+a working group ...
 
-![Logic programming resolver traverses the solution space to find all matches \label{fig}](./logic-programming.png)
-
-![An SVG example](./test.svg)
-
-The introduction of logic programming is particularly relevant in the
-context of multi-model data representations where data can be accessed
-in memory as free data structures, but also on disk where data can be
-represented as tables, trees (documents), and graphs. In
-bioinformatics we can make use of all these different data sources and
-have a query engine that can mine them all efficiently.
-
-Logic programming is well-suited for biological research. Essentially,
-a researcher writes a number of statements that include variables
-representing unknown information.  The logic engine then goes through
-the solution space (all data) to find possible matches (see figure
-\ref{fig}). Much more detail on the rationale and implementations of
-miniKanren and logic programming are well summarized in Byrd's book
-\emph{The Reasoned Schemer, Second Edition} [@agreesWith:reasoned2nd], PhD thesis
+Citation examples:
+[@agreesWith:reasoned2nd], PhD thesis
 [@ByrdPhD], and [online](https://www.youtube.com/watch?v=eQL48qYDwp4)
 [talks](https://www.youtube.com/watch?v=o3AHnyEf7IE).
 
-The 'Logic Programming' working group at the 2019 edition of the
-annual Japanese BioHackathon applied logic programming to various problems.
-The working group:
+Itemisation example:
 \begin{itemize}
 \item researched state-of-the-art mapping between graph stores and logic programming;
 \item created methods for bridging between SPARQL and in-memory data representations using Prolog;
@@ -109,59 +85,14 @@ The working group:
 \item and added Relational Biolink type inference for mediKanren.
 \end{itemize}
 
-<!--
 # Results
--->
 
-## Research of state-of-the-art logic programming facilities for SPARQL
+## Approach to construct a Learning Path
 
-The working group researched current solutions for combining logic
-programming with SPARQL.
-[ClioPatria](http://www.semantic-web-journal.net/system/files/swj1074.pdf)
-is an in-memory RDF quad-store tightly coupled with SWI-Prolog by Jan
-Wielemaker, the main author of SWI-Prolog
-[@WielemakerBHO15]. SWI-Prolog is published under a BSD license, and
-there even exist bindings for
-[ClioPatria and Python](http://wi.hwtk.de/WLP2018/Papers/WLP_2018_paper_4.pdf),
-for example, although we were unable to locate the source code. We
-think ClioPatria and SWI-Prolog are particularly useful for teaching,
-and for (in-memory) semantic web applications. SWI-Prolog comes with
-client libraries for SQL and SPARQL queries.
+![Initial sketch of the areas and potential training resources \label{fig1}](./1_draft.jpg)
 
-## Accessing biological databases using SPARQLProg
+## Controlled vocabulary
 
-<!--
-    State the problem you worked on
-    Give the state-of-the art/plan
-    Describe what you have done/results starting with The working group created...
-    Write a conclusion
-    Write up any future work
--->
-
-A number of biological databases make their data available in RDF
-format, supporting SPARQL access---for example,
-[Uniprot](https://www.uniprot.org/),
-[NCBI Pubchem](https://pubchemdocs.ncbi.nlm.nih.gov/rdf) and the
-[EBI RDF platform](https://www.ebi.ac.uk/rdf/).
-SPARQL provides a subset of what logic programming can do.
-However, SPARQL queries lack the property of composability and there is no way to
-reuse modular components across queries.  For example, to execute a
-range query on a genomic region using the FALDO model [@agreesWith:Bolleman2016]
-requires authoring a complex query over many triples. If we then wish
-to reuse parts of that query in a more complex query, we have to
-manually compose them together.
-
-The working group added codes to
-[SPARQLProg](https://github.com/cmungall/sparqlprog) which provides a
-way to define modular query components using logic programming.
-SPARQLProg is written in
-SWI-Prolog and has a Python interface library. All code has been made
-available in the example directory of
-SPARQLProg which provides
-sophisticated mapping of logic queries to SPARQL.
-
-For example, a 4-part predicate `feature_in_range` can be composed
-with a binary \
 `has_mouse_ortholog` predicate:
 
 ```
@@ -169,34 +100,11 @@ with a binary \
     has_mouse_ortholog(HumanGene, MouseGene)
 ```
 
-This will compile down to a more complex SPARQL query, and execute it against a remote endpoint.
+## Mapping the TeSS entries
 
-SPARQLProg now includes bindings for many common biological SPARQL
-endpoints. As part of this hackathon we developed codes to access RDF
-databases of MBGD [@Chiba2015], KEGG OC, TogoVar, JCM, Allie, EBI
- BioSamples, UniProt, and DisGeNET [@Queralt2016]. Future work includes using these
-Prolog codes as building blocks for integrative analysis.
+## Summary and outlook
 
-## Extending the Biolink Model
-
-<!--
-    State the problem you worked on
-    Give the state-of-the art/plan
-    Describe what you have done/results starting with The working group created...
-    Write a conclusion
-    Write up any future work
--->
-
-The [Biolink Model](https://github.com/biolink/biolink-model) (see
-above) is a data model developed for representing biological and
-biomedical knowledge. It includes a schema and generated objects for
-the data model and upper ontology. The BioLink Model was designed with
-the goal of standardizing the way information is represented in a
-graph store, regardless of the formalism used. The working group
-focused on extending this model to support representation of a wide
-variety of knowledge.
-
-The following tasks were accomplished as part of the BioHackathon:
+The following tasks were accomplished as part of the BioHackathon (example):
 
 \begin{enumerate}
 \item Represent datasets and their related metadata
@@ -208,32 +116,6 @@ For future work, the group will ensure that the new classes added to
 the model will have appropriate mappings to other schemas and
 ontologies.
 
-##  Relational Biolink type inference for mediKanren
-
-<!--
-    State the problem you worked on
-    Give the state-of-the art/plan
-    Describe what you have done/results starting with The working group created...
-    Write a conclusion
-    Write up any future work
-
-* Remote member Nada Amin, Chris Mungall, Deepak Unni, Will Byrd
-
--->
-
-miniKanren is an embedded Domain Specific Language for logic
-programming.  The goal was to implement a relational type inferencer
-for the [Biolink Model](https://biolink.github.io/biolink-model/) in
-miniKanren, which can be integrated into mediKanren. The working group
-added a `yaml` subdirectory to the mediKanren GitHub page, and created
-multiple files in https://github.com/webyrd/mediKanren/yaml where
-`yaml2sexp.py` generates the `biolink.scm` file which contains an
-s-expression version of the Biolink yaml file. `yaml.scm` contains
-miniKanren relations, and Chez Scheme code that generates miniKanren
-relations based on `biolink.scm`. These are giant miniKanren `conde`
-clauses that can be thought of as relational tables.  `yaml.scm` also
-contains tests for the relations.
-
 Future work includes:
 
 1. integrating this work into the Racket mediKanren code;
@@ -242,11 +124,6 @@ Future work includes:
    query synthesis, etc.
 
 # Discussion
-
-The working group concluded that there is ample scope for logic
-programming in bioinformatics. Future work includes expansion of
-accessing semantic web databases using SPARQLProg, expanding the
-BioLink model, and adding dynamic SPARQL support to miniKanren.
 
 ## Acknowledgements
 
