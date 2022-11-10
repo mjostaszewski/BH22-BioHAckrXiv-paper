@@ -39,9 +39,9 @@ affiliations:
 date: 3 March 2020
 cito-bibliography: paper.bib
 event: Fukuoka2019
-biohackathon_name: "NBDC/DBCLS BioHackathon"
-biohackathon_url:   "http://2019.biohackathon.org/"
-biohackathon_location: "Fukuoka, Japan, 2019"
+biohackathon_name: "BioHakaton2022"
+biohackathon_url:   "http://biohackathon-europe.org"
+biohackathon_location: "Paris, France, 2022"
 group: Logic programming group
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackrxiv/bhxiv-gen-pdf
@@ -66,7 +66,7 @@ pasting above link (or yours) in
 
 # Introduction
 
-As part of the one week Biohackathion 2019 in Fukuoka Japan, we formed
+As part of the one week Biohackathon 2022 in Paris, France, we formed
 a working group on logic programming for the biomedical sciences.
 Logic programming is understood by many bioinformaticians when it is
 presented in the form of relational SQL queries or SPARQL
@@ -99,7 +99,7 @@ miniKanren and logic programming are well summarized in Byrd's book
 [@ByrdPhD], and [online](https://www.youtube.com/watch?v=eQL48qYDwp4)
 [talks](https://www.youtube.com/watch?v=o3AHnyEf7IE).
 
-The `Logic Programming' working group at the 2019 edition of the
+The 'Logic Programming' working group at the 2019 edition of the
 annual Japanese BioHackathon applied logic programming to various problems.
 The working group:
 \begin{itemize}
