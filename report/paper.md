@@ -124,7 +124,7 @@ Future work includes:
 
 \begin{enumerate}
 \item Finalise this report and aim for a peer reviewed publication
-\item Persist the CV following a proposed strategy in [cox2021faircv]
+\item Persist the CV following a proposed strategy in [@cox2021faircv]
 \item Collaborate with ELIXIR Training Platform for [TrainingMaterials BioSchema profile](https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE) to provide CV-related info directly on training websites
 \end{enumerate}
 
