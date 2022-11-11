@@ -96,7 +96,7 @@ We have identified 33 training resources (including 7 gaps, see below), which we
 
 ![Initial sketch of the areas and potential training resources \label{fig1}](./1_draft.jpg)
 
-![Miro board with mapped training resources \label{fig1}](./2_Miro.jpg)
+![Miro board with mapped training resources \label{fig2}](./2_Miro.jpg)
 
 ## Controlled vocabulary
 
@@ -105,6 +105,8 @@ Our controlled vocabulary can be found on a shared [Google doc](https://docs.goo
 ## Mapping to the TeSS workflow
 
 We set up a [TeSS workflow](https://tess.elixir-europe.org/workflows/building-interoperable-and-reusable-systems-biology-models) linking the reviewed training resources together. All resources, except the gaps, were mapped to TeSS training materials if missing (see figure below).
+
+![TeSS workflow based on the Miro board mapping of the training resources \label{fig3}](./2_TeSS_workflow.jpg)
 
 ## Summary and outlook
 
