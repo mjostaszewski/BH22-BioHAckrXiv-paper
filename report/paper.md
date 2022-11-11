@@ -79,14 +79,14 @@ a team to map out and connect training resources for biocuration/modelling in sy
 Based on the [Learning Path protocol](https://en.wikipedia.org/wiki/Learning_pathway) we prepared a minimal information template, including prerequisites and learning outcomes, to harmonise training resources. Then we planned our work into the following activities:
 
 1. Retrieval of systems biology and biocuration traning materials in four Areas: biocuration essentials, curation of molecular interactions (Interactions), creation of systems biology diagrams (Diagrams) and construction of reproducible models (Modelling). 
-    1 Expert search of available and related training material;
-    2 Query of [TeSS training materials](https://tess.elixir-europe.org/materials) for keywords: `systems` or `curation`;
+    1. Expert search of available and related training material;
+    2. Query of [TeSS training materials](https://tess.elixir-europe.org/materials) for keywords: `systems` or `curation`;
 2. Review collected materials to harmonise prerequisites and learning outcomes.
-    1 Develop a controlled vocabulary (CV) based on the collected information
-    2 Project the collected materials on a matrix of Areas vs Cognitive levels ([Learning Path protocol](https://en.wikipedia.org/wiki/Learning_pathway)) 
+    1. Develop a controlled vocabulary (CV) based on the collected information
+    2. Project the collected materials on a matrix of Areas vs Cognitive levels ([Learning Path protocol](https://en.wikipedia.org/wiki/Learning_pathway)) 
 3. Connect the training resources by matching prerequisites and learning outcomes
-    1 Construct a diagram of training resources
-    2 Identify gaps and propose an integrated learning  path.
+    1. Construct a diagram of training resources
+    2. Identify gaps and propose an integrated learning  path.
 
 # Results
 
