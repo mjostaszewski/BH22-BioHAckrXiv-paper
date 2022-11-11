@@ -92,21 +92,28 @@ Based on the [Learning Path protocol](https://en.wikipedia.org/wiki/Learning_pat
 
 ## Harmonised training resources
 
-We have identified 33 training resources (including 7 gaps, see below), which were initially manually mapped on the Learning Path structure, see below. The LP protocol suggests positioning training resources according their thematic area (X axis) and the difficulty level of the training, according to Bloom cognitive taxonomy[@anderson2001taxonomy].
+We have identified 33 training resources (including 7 gaps, see below), which were initially manually mapped on the Learning Path structure, see below. The LP protocol suggests positioning training resources according their thematic area (X axis) and the difficulty level of the training, according to Bloom cognitive taxonomy[@anderson2001taxonomy] (Y axis).
 
 ![Initial sketch of the areas and potential training resources \label{fig1}](./1_draft.jpg)
+
+Our initial mapping was transformed into a [Miro board](https://miro.com/app/board/uXjVPKxZaJo=/) with training resources grouped into modules, according to their similar prerequisites and learning outcomes. Competences (prerequisites and learning outcomes) are separate nodes on the Miro board, allowing to define a starting point based on a learner's background.
 
 ![Miro board with mapped training resources \label{fig2}](./2_Miro.jpg)
 
 ## Controlled vocabulary
 
-Our controlled vocabulary can be found on a shared [Google doc](https://docs.google.com/document/d/1eGuxfFpqO-Uu4R8-uo00VITRxJ80V37Jz-vXuW--vEs/edit)
+Our controlled vocabulary (CV) can be found on a shared [Google document](https://docs.google.com/document/d/1eGuxfFpqO-Uu4R8-uo00VITRxJ80V37Jz-vXuW--vEs/edit). The document also contains a summary table of all 33 training resources, used to create the Miro board above. Our CV is custom and partially hierarchical, but needs to be curated into a persistent resource, following a more refined structure. One suggestion is to establish a smiple grammar following a three-word syntax:
+```
+[Bloom taxonomy term] - [Ontology topic] - [list of relevant URIs]
+e.g.
+[Understand] - [Ontology concept ID] - [http://geneontology.org]
+```
 
 ## Mapping to the TeSS workflow
 
 We set up a [TeSS workflow](https://tess.elixir-europe.org/workflows/building-interoperable-and-reusable-systems-biology-models) linking the reviewed training resources together. All resources, except the gaps, were mapped to TeSS training materials if missing (see figure below).
 
-![TeSS workflow based on the Miro board mapping of the training resources \label{fig3}](./2_TeSS_workflow.jpg)
+![TeSS workflow based on the Miro board mapping of the training resources \label{fig3}](./2_TeSS_workflow.png)
 
 ## Summary and outlook
 
@@ -128,7 +135,12 @@ Future work includes:
 
 # Discussion
 
-To be completed
+Our mapping allowed us to demonstrate the need of training in a range of topics which are required for creating reproducible systems biology models. Importantly, understanding of the basics of biocuration, including refence databases, ontologies and proper work with the literature are indispensible as foundations for modelling.
+
+Discuss also:
+- Identified gaps
+- Model building is associated with higher oerder Bloom taxonomy terms
+- Perspectives for managing the mapping, updating training materials etc.
 
 ## Acknowledgements
 
