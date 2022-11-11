@@ -79,24 +79,24 @@ a team to map out and connect training resources for biocuration/modelling in sy
 Based on the [Learning Path protocol](https://en.wikipedia.org/wiki/Learning_pathway) we prepared a minimal information template, including prerequisites and learning outcomes, to harmonise training resources. Then we planned our work into the following activities:
 
 1. Retrieval of systems biology and biocuration traning materials in four Areas: biocuration essentials, curation of molecular interactions (Interactions), creation of systems biology diagrams (Diagrams) and construction of reproducible models (Modelling). 
-1.1 Expert search of available and related training material;
-1.2 Query of [TeSS training materials](https://tess.elixir-europe.org/materials) for keywords: `systems` or `curation`;
+    1 Expert search of available and related training material;
+    2 Query of [TeSS training materials](https://tess.elixir-europe.org/materials) for keywords: `systems` or `curation`;
 2. Review collected materials to harmonise prerequisites and learning outcomes.
-2.1 Develop a controlled vocabulary (CV) based on the collected information
-2.2 Project the collected materials on a matrix of Areas vs Cognitive levels ([Learning Path protocol](https://en.wikipedia.org/wiki/Learning_pathway)) 
+    1 Develop a controlled vocabulary (CV) based on the collected information
+    2 Project the collected materials on a matrix of Areas vs Cognitive levels ([Learning Path protocol](https://en.wikipedia.org/wiki/Learning_pathway)) 
 3. Connect the training resources by matching prerequisites and learning outcomes
-3.1 Construct a diagram of training resources
-3.2 Identify gaps and propose an integrated learning  path.
+    1 Construct a diagram of training resources
+    2 Identify gaps and propose an integrated learning  path.
 
 # Results
 
 ## Harmonised training resources
 
-The Learning Path (LP) protocol suggests positioning training resources according their thematic area (X axis) and the difficulty level of the training, according to Bloom's cognitive taxonomy[@anderson2001taxonomy] (Y axis). We have identified 33 training resources (including 7 gaps, see below), which we have manually mapped on a draft LP structure {fig1}. 
+The Learning Path (LP) protocol suggests positioning training resources according their thematic area (X axis) and the difficulty level of the training, according to Bloom's cognitive taxonomy[@anderson2001taxonomy] (Y axis). We have identified 33 training resources (including 7 gaps, see below), which we have manually mapped on a draft LP structure (Figure \ref{fig1}). 
 
 ![Initial sketch of the areas and potential training resources \label{fig1}](./1_draft.jpg)
 
-The draft map was transformed into a [Miro board](https://miro.com/app/board/uXjVPKxZaJo=/) with training resources grouped into modules, according to their similar prerequisites and learning outcomes. Competences (prerequisites and learning outcomes) are separate nodes on the Miro board, allowing to define a starting point based on a learner's background {fig2}.
+The draft map was transformed into a [Miro board](https://miro.com/app/board/uXjVPKxZaJo=/) with training resources grouped into modules, according to their similar prerequisites and learning outcomes. Competences (prerequisites and learning outcomes) are separate nodes on the Miro board, allowing to define a starting point based on a learner's background (Figure \ref{fig2}).
 
 ![Miro board with mapped training resources \label{fig2}](./2_Miro.jpg)
 
@@ -112,7 +112,7 @@ The above document also contains a summary table of all 33 training resources co
 
 ## Mapping to the TeSS workflow
 
-We set up a [TeSS workflow](https://tess.elixir-europe.org/workflows/building-interoperable-and-reusable-systems-biology-models) linking the reviewed training resources together. All the resources, except the gaps, were mapped to TeSS training materials, if missing {fig3}.
+We set up a [TeSS workflow](https://tess.elixir-europe.org/workflows/building-interoperable-and-reusable-systems-biology-models) linking the reviewed training resources together. All the resources, except the gaps, were mapped to TeSS training materials (Figure \ref{fig3}). Missing materials are indicated.
 
 ![TeSS workflow based on the Miro board mapping of the training resources \label{fig3}](./2_TeSS_workflow.png)
 
