@@ -72,52 +72,53 @@ authors_short: Livia Perfetto \emph{et al.}
 # Introduction
 
 As part of the one week Biohackathon 2022 in Paris, France, we formed
-a team to map out and connect training resources for systems biology into a [learning path](https://en.wikipedia.org/wiki/Learning_pathway). We built on the experience of the [BioHackathon 2021 Project 9](https://github.com/elixir-europe/bioHackathon-projects-2021/tree/main/projects/9). The motivation for this work was the fact that modelling of biological systems in an accurate and reproducible way requires a set of diverse competences. To train systems biologists, we need a map of training resources to acquire these necessary competences in a correct sequence.
+a team to map out and connect training resources for biocuration/modelling in systems biology into a [learning path](https://en.wikipedia.org/wiki/Learning_pathway). We built on the experience of the [BioHackathon 2021 Project 9](https://github.com/elixir-europe/bioHackathon-projects-2021/tree/main/projects/9). The motivation for this work was the fact that modelling of biological systems in an accurate and reproducible way requires a set of diverse competences. To train systems biologists, we need a map of training resources to acquire these necessary competences in a correct sequence.
 
 # Approach
 
 Based on the [Learning Path protocol](https://en.wikipedia.org/wiki/Learning_pathway) we prepared a minimal information template, including prerequisites and learning outcomes, to harmonise training resources. Then we planned our work into the following activities:
 
-1. Query systems biology and biocuration traning materials in four categories: biocuration essentials, curating molecular interactions (Interactions), constructing systems biology diagrams (Diagrams) and building reproducible models (Modelling). 
-1.1 Expert search of related training resources
-1.2 Query of [TeSS training materials](https://tess.elixir-europe.org/materials) for keywords `systems` or `curation`
-2. Review collected materials to harmonise prerequisites and learning outcomes
+1. Retrieval of systems biology and biocuration traning materials in four Areas: biocuration essentials, curation of molecular interactions (Interactions), creation of systems biology diagrams (Diagrams) and construction of reproducible models (Modelling). 
+1.1 Expert search of available and related training material;
+1.2 Query of [TeSS training materials](https://tess.elixir-europe.org/materials) for keywords: `systems` or `curation`;
+2. Review collected materials to harmonise prerequisites and learning outcomes.
 2.1 Develop a controlled vocabulary (CV) based on the collected information
 2.2 Project the collected materials on a matrix of Areas vs Cognitive levels ([Learning Path protocol](https://en.wikipedia.org/wiki/Learning_pathway)) 
 3. Connect the training resources by matching prerequisites and learning outcomes
-3.1 Construct a map of training resources
-3.2 Identify gaps and propose training resources
+3.1 Construct a diagram of training resources
+3.2 Identify gaps and propose an integrated learning  path.
 
 # Results
 
 ## Harmonised training resources
 
-We have identified 33 training resources (including 7 gaps, see below), which were initially manually mapped on the Learning Path structure, see below. The LP protocol suggests positioning training resources according their thematic area (X axis) and the difficulty level of the training, according to Bloom cognitive taxonomy[@anderson2001taxonomy] (Y axis).
+The Learning Path (LP) protocol suggests positioning training resources according their thematic area (X axis) and the difficulty level of the training, according to Bloom's cognitive taxonomy[@anderson2001taxonomy] (Y axis). We have identified 33 training resources (including 7 gaps, see below), which we have manually mapped on a draft LP structure {fig1}. 
 
 ![Initial sketch of the areas and potential training resources \label{fig1}](./1_draft.jpg)
 
-Our initial mapping was transformed into a [Miro board](https://miro.com/app/board/uXjVPKxZaJo=/) with training resources grouped into modules, according to their similar prerequisites and learning outcomes. Competences (prerequisites and learning outcomes) are separate nodes on the Miro board, allowing to define a starting point based on a learner's background.
+The draft map was transformed into a [Miro board](https://miro.com/app/board/uXjVPKxZaJo=/) with training resources grouped into modules, according to their similar prerequisites and learning outcomes. Competences (prerequisites and learning outcomes) are separate nodes on the Miro board, allowing to define a starting point based on a learner's background {fig2}.
 
 ![Miro board with mapped training resources \label{fig2}](./2_Miro.jpg)
 
 ## Controlled vocabulary
 
-Our controlled vocabulary (CV) can be found on a shared [Google document](https://docs.google.com/document/d/1eGuxfFpqO-Uu4R8-uo00VITRxJ80V37Jz-vXuW--vEs/edit). The document also contains a summary table of all 33 training resources, used to create the Miro board above. Our CV is custom and partially hierarchical, but needs to be curated into a persistent resource, following a more refined structure. One suggestion is to establish a smiple grammar following a three-word syntax:
+Our controlled vocabulary (CV) can be found on a shared [Google document](https://docs.google.com/document/d/1eGuxfFpqO-Uu4R8-uo00VITRxJ80V37Jz-vXuW--vEs/edit). Our customized CV is partially hierarchical, but needs to be curated into a persistent resource, following a more refined structure. One suggestion is to establish a smiple grammar following a three-word syntax:
 ```
 [Bloom taxonomy term] - [Ontology topic] - [list of relevant URIs]
 e.g.
 [Understand] - [Ontology concept ID] - [http://geneontology.org]
 ```
+The above document also contains a summary table of all 33 training resources collected to create the Miro board {fig2}.
 
 ## Mapping to the TeSS workflow
 
-We set up a [TeSS workflow](https://tess.elixir-europe.org/workflows/building-interoperable-and-reusable-systems-biology-models) linking the reviewed training resources together. All resources, except the gaps, were mapped to TeSS training materials if missing (see figure below).
+We set up a [TeSS workflow](https://tess.elixir-europe.org/workflows/building-interoperable-and-reusable-systems-biology-models) linking the reviewed training resources together. All the resources, except the gaps, were mapped to TeSS training materials, if missing {fig3}.
 
 ![TeSS workflow based on the Miro board mapping of the training resources \label{fig3}](./2_TeSS_workflow.png)
 
 ## Summary and outlook
 
-The following tasks were accomplished as part of the BioHackathon (example):
+The following tasks were accomplished as part of the BioHackathon:
 
 \begin{enumerate}
 \item Review systems biology training resources
