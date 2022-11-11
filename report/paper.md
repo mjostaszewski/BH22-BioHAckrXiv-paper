@@ -20,7 +20,7 @@ authors:
   - name: Ulrike Wittig
     orcid: 0000-0002-9077-5664
     affiliation: 4
-  - name: Martina Summer-Kutmon
+  - name: Martina Kutmon
     orcid: 0000-0002-7699-8191
     affiliation: 5
   - name: Rahuman Sheriff
@@ -28,13 +28,13 @@ authors:
     affiliation: 2
   - name: Chris Evelo
     orcid: 0000-0002-5301-3142
-    affiliation: 5
+    affiliation: 6
   - name: Mihail Anton
     orcid: 0000-0002-7753-9042
-    affiliation: 6
+    affiliation: 7
   - name: Luana Licata
     orcid: 0000-0001-5084-9000
-    affiliation: 7
+    affiliation: 8
   - name: Marek Ostaszewski
     orcid: 0000-0003-1473-370X
     affiliation: 3
@@ -47,12 +47,14 @@ affiliations:
     index: 3
   - name: Heidelberger Institut f&uuml;r Theoretische Studien, Heidelberg, Baden-W&uuml;rttemberg, DE
     index: 4
-  - name: Maastricht University, Maastricht, Limburg, NL
+  - name: Maastricht Centre for Systems Biology (MaCSBio), Maastricht University, Maastricht, Limburg, NL
     index: 5
-  - name: Chalmers University of Technology, Gothenburg, SE
+  - name: Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, Maastricht, Limburg, NL
     index: 6
-  - name: University of Rome Tor Vergata, Rome, Lazio, IT
+  - name: Chalmers University of Technology, Gothenburg, SE
     index: 7
+  - name: University of Rome Tor Vergata, Rome, Lazio, IT
+    index: 8
 date: 7 November 2022
 cito-bibliography: paper.bib
 event: Paris22
