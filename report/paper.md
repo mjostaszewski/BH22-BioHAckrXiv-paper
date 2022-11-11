@@ -70,64 +70,66 @@ authors_short: Livia Perfetto \emph{et al.}
 # Introduction
 
 As part of the one week Biohackathon 2022 in Paris, France, we formed
-a working group ...
+a team to map out and connect training resources for systems biology into a [learning path](https://en.wikipedia.org/wiki/Learning_pathway). We built on the experience of the [BioHackathon 2021 Project 9](https://github.com/elixir-europe/bioHackathon-projects-2021/tree/main/projects/9). The motivation for this work was the fact that modelling of biological systems in an accurate and reproducible way requires a set of diverse competences. To train systems biologists, we need a map of training resources to acquire these necessary competences in a correct sequence.
 
-Citation examples:
-[@agreesWith:reasoned2nd], PhD thesis
-[@ByrdPhD], and [online](https://www.youtube.com/watch?v=eQL48qYDwp4)
-[talks](https://www.youtube.com/watch?v=o3AHnyEf7IE).
+# Approach
 
-Itemisation example:
-\begin{itemize}
-\item researched state-of-the-art mapping between graph stores and logic programming;
-\item created methods for bridging between SPARQL and in-memory data representations using Prolog;
-\item extended the Biolink model;
-\item and added Relational Biolink type inference for mediKanren.
-\end{itemize}
+Based on the [Learning Path protocol](https://en.wikipedia.org/wiki/Learning_pathway) we prepared a minimal information template, including prerequisites and learning outcomes, to harmonise training resources. Then we planned our work into the following activities:
+
+1. Query systems biology and biocuration traning materials in four categories: biocuration essentials, curating molecular interactions (Interactions), constructing systems biology diagrams (Diagrams) and building reproducible models (Modelling). 
+1.1 Expert search of related training resources
+1.2 Query of [TeSS training materials](https://tess.elixir-europe.org/materials) for keywords `systems` or `curation`
+2. Review collected materials to harmonise prerequisites and learning outcomes
+2.1 Develop a controlled vocabulary (CV) based on the collected information
+2.2 Project the collected materials on a matrix of Areas vs Cognitive levels ([Learning Path protocol](https://en.wikipedia.org/wiki/Learning_pathway)) 
+3. Connect the training resources by matching prerequisites and learning outcomes
+3.1 Construct a map of training resources
+3.2 Identify gaps and propose training resources
 
 # Results
 
-## Approach to construct a Learning Path
+## Harmonised training resources
+
+We have identified 33 training resources (including 7 gaps, see below), which were initially manually mapped on the Learning Path structure, see below. The LP protocol suggests positioning training resources according their thematic area (X axis) and the difficulty level of the training, according to Bloom cognitive taxonomy[@anderson2001taxonomy].
 
 ![Initial sketch of the areas and potential training resources \label{fig1}](./1_draft.jpg)
 
+![Miro board with mapped training resources \label{fig1}](./2_Miro.jpg)
+
 ## Controlled vocabulary
 
-`has_mouse_ortholog` predicate:
+Our controlled vocabulary can be found on a shared [Google doc](https://docs.google.com/document/d/1eGuxfFpqO-Uu4R8-uo00VITRxJ80V37Jz-vXuW--vEs/edit)
 
-```
-    feature_in_range(grch38:"X", 10000000, 20000000, HumanGene),
-    has_mouse_ortholog(HumanGene, MouseGene)
-```
+## Mapping to the TeSS workflow
 
-## Mapping the TeSS entries
+We set up a [TeSS workflow](https://tess.elixir-europe.org/workflows/building-interoperable-and-reusable-systems-biology-models) linking the reviewed training resources together. All resources, except the gaps, were mapped to TeSS training materials if missing (see figure below).
 
 ## Summary and outlook
 
 The following tasks were accomplished as part of the BioHackathon (example):
 
 \begin{enumerate}
-\item Represent datasets and their related metadata
-\item Represent family and pedigree information to support clinical knowledge
-\item Make the provenance model more rich and descriptive
+\item Review systems biology training resources
+\item Construct a CV of learning outcomes and harmonise them across the resources
+\item Construct a Learning Path out of the reviewed materials
 \end{enumerate}
 
-For future work, the group will ensure that the new classes added to
-the model will have appropriate mappings to other schemas and
-ontologies.
+For future work, the group will work to complete the training resources mapping, clarify the connections and persist the outcomes.
 
 Future work includes:
 
-1. integrating this work into the Racket mediKanren code;
-2. integrating with the data categories in the KGs;
-3. and creating query editor with decent type error messages, autocompletion,
-   query synthesis, etc.
+\begin{enumerate}
+\item Finalise this report and aim for a peer reviewed publication
+\item Persist the CV following a proposed strategy in [cox2021faircv]
+\item Collaborate with ELIXIR Training Platform for [TrainingMaterials BioSchema profile](https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE) to provide CV-related info directly on training websites
+\end{enumerate}
 
 # Discussion
 
+To be completed
+
 ## Acknowledgements
 
-We thank the organizers of the NBDC/DBCLS BioHackathon 2019 for
-travel support for some of the authors.
+We thank the organizers of the ELIXIR BioHackathon 2022 for travel support for some of the authors.
 
 ## References
